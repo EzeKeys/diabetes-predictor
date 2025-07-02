@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load model
-model = joblib.load("diabetes_model.pkl")
+model = joblib.load("diabetes_xgb_model.pkl")
 
 # Define the feature names used during training
 features = ['Pregnancies', 'Glucose', 'BloodPressure', 'Insulin', 'BMI', 'Age']
