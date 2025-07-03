@@ -60,7 +60,8 @@ st.markdown("""
     }
     
     .measurement-tip {
-        background-color: #f8f9fa;
+        background-color: #0000;
+        color:#ffff;
         padding: 0.5rem;
         border-radius: 0.3rem;
         font-size: 0.9rem;
